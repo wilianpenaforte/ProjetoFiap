@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
+import DateInclude from './dateInclude';
 
 
 const LaunchHours = () => {
@@ -7,7 +8,9 @@ const LaunchHours = () => {
 
     return (
         <>
-            <Text>Hello, world!</Text>
+            <DateInclude />
+
+            <Text>Tela Lançamento de horas</Text>
         </>
     )
 }
